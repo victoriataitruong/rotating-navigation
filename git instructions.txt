@@ -1,0 +1,31 @@
+CONNECTING A NEW PROJECT TO A GITHUB REPO
+# open vs code 
+# go to "File" > "Open Folder"
+# navigate to C:\Users\victo\Desktop\JavaScript Projects
+# copy the "template-project", paste it, and rename it to whatever you want to call your repo
+# select the new folder you just created
+# click the source control icon
+# click "Publish to Github"
+# two options will popup with your project. select either public or private
+
+CHECKING INTO GITHUB
+# wait until theres a number next to the source control icon (indicating you have new changes)
+# type in a message to name the changes
+# click the checkmark icon
+# click the 3 dots and select push
+
+REVERTING BACK TO MASTER (BEFORE COMMITS)
+to pull the latest version from master(reverting all your changes)
+# open the terminal
+# git checkout .
+
+HOSTING PUBLIC REPOS
+# in github in the upper right corner click on your picture
+# click on "Your repositories"
+# click on the repo you want to host
+# click on "Settings"
+# click on "Pages" 
+# under "Source" replace "none" with "master"
+# click on "Save"
+# you should see a message in blue "Your Site is ready to be published at ..."
+(note: it can up to 30 mins for your site to be ready)
